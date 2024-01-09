@@ -1,0 +1,136 @@
+import { useState } from 'react'
+import iitLogo from '/logo_SIIT.png'
+import uLogo from '/Logo_Universidad.png'
+import img from '/example.svg'
+import './App.css'
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link} from "@nextui-org/react";
+
+
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+    <section className='header'>
+      <Navbar className='m-0 p-0 bg-slate-500'>
+        <NavbarBrand justify="start">
+          <img src={iitLogo} alt="" className='h-20 w-56'/>
+        </NavbarBrand>
+
+        <NavbarContent hideIn="md" className="hidden sm:flex gap-12" justify="center">
+
+          <NavbarItem>
+            <Link color="foreground" href="about">
+              Sobre Nosotros
+            </Link>
+          </NavbarItem>
+
+          <NavbarItem>
+            <Link color="foreground" href="mision">
+              Misión
+            </Link>
+          </NavbarItem>
+
+          <NavbarItem>
+            <Link color="foreground" href="#">
+              Visión
+            </Link>
+          </NavbarItem>
+
+          <NavbarItem>
+            <Link color="foreground" href="#">
+              Nuestros Servicios
+            </Link>
+          </NavbarItem>
+
+        </NavbarContent>
+      </Navbar>
+    </section>
+
+
+    <section className='Content'>
+
+      <div name='about' id='about' className='bg-gray-300 w-full h-screen flex flex-row items-center'>
+
+        <div className='w-1/2 p-32'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
+        </div>
+
+        <div className='w-1/2'>
+          <img src={img} alt="" className='w-96 h-96 mx-auto'/>
+        </div>
+
+      </div>
+
+      <div name='mision' id='mision' className='bg-gray-200 w-full h-screen flex flex-row-reverse items-center'>
+
+        <div className='w-1/2 p-32'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
+        </div>
+
+        <div className='w-1/2'>
+          <img src={img} alt="" className='w-96 h-96 mx-auto'/>
+        </div>
+
+      </div>
+        
+      <div name='vision' className='bg-gray-300 w-full h-screen flex flex-row items-center'>
+
+        <div className='w-1/2 p-32'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
+        </div>
+
+        <div className='w-1/2'>
+          <img src={img} alt="" className='w-96 h-96 mx-auto'/>
+        </div>
+
+      </div>
+
+      <div name='services' className='bg-gray-200 w-full h-screen flex flex-row-reverse items-center'>
+
+        <div className='w-1/2 p-32'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
+        </div>
+
+        <div className='w-1/2'>
+          <img src={img} alt="" className='w-96 h-96 mx-auto'/>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section className='Footer bg-slate-900 h-34 py-4 px-12 flex flex-row'>
+
+      <div className='w-1/3'>
+        <img src={uLogo} alt="" className='w-28'/>
+      </div>
+
+      <div className='w-1/3 text-white'>
+        Horarios de Atencion:
+        <br />
+        7am - 1pm
+        <br />
+        2pm - 8pm
+        <br />
+        Sede Torobajo - Bloque tecnologico Piso 3
+      </div>
+
+      <div className='w-1/3 text-white'>
+        Contanctanos a traves de los siguientes correos: 
+        <br />
+        usm@udenar.edu.co
+        <br />
+        infraestructura.tic@udenar.edu.co
+        <br />
+        Telefono: 7244309 Ext: 1118
+      </div>
+
+    </section>
+    </>
+  )
+}
+
+export default App
