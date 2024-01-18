@@ -2,8 +2,10 @@ import { useState } from 'react'
 import iitLogo from '/logo_SIIT.png'
 import uLogo from '/Logo_Universidad.png'
 import img from '/example.svg'
-import './App.css'
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link} from "@nextui-org/react";
+
+import Navbar from './Components/Navbar/Navbar'
+
+import { Box, Button, Container } from '@mui/material'
 
 
 
@@ -12,41 +14,9 @@ function App() {
 
   return (
     <>
-    <section className='header'>
-      <Navbar className='m-0 p-0 bg-slate-500'>
-        <NavbarBrand justify="start">
-          <img src={iitLogo} alt="" className='h-20 w-56'/>
-        </NavbarBrand>
-
-        <NavbarContent hideIn="md" className="hidden sm:flex gap-12" justify="center">
-
-          <NavbarItem>
-            <Link color="foreground" href="about">
-              Sobre Nosotros
-            </Link>
-          </NavbarItem>
-
-          <NavbarItem>
-            <Link color="foreground" href="mision">
-              Misión
-            </Link>
-          </NavbarItem>
-
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Visión
-            </Link>
-          </NavbarItem>
-
-          <NavbarItem>
-            <Link color="foreground" href="#">
-              Nuestros Servicios
-            </Link>
-          </NavbarItem>
-
-        </NavbarContent>
-      </Navbar>
-    </section>
+    <Box sx={{bgcolor:'gray'}}>
+      <Navbar></Navbar>
+    </Box>
 
 
     <section className='Content'>
@@ -55,6 +25,8 @@ function App() {
 
         <div className='w-1/2 p-32'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
+
+          <Button variant='contained'>Hello word!</Button>
         </div>
 
         <div className='w-1/2'>
