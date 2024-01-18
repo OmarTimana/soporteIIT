@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import iitLogo from '/logo_SIIT.png'
+
 import uLogo from '/Logo_Universidad.png'
 import img from '/example.svg'
 
 import Navbar from './Components/Navbar/Navbar'
 
-import { Box, Button, Container } from '@mui/material'
+import { Box, Button } from '@mui/material'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -47,7 +45,7 @@ function App() {
 
       </div>
         
-      <div name='vision' className='bg-gray-300 w-full h-screen flex flex-row items-center'>
+      <div name='vision' id='vision' className='bg-gray-300 w-full h-screen flex flex-row items-center'>
 
         <div className='w-1/2 p-32'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.
@@ -59,7 +57,7 @@ function App() {
 
       </div>
 
-      <div name='services' className='bg-gray-200 w-full h-screen flex flex-row-reverse items-center'>
+      <div name='services' id='services' className='bg-gray-200 w-full h-screen flex flex-row-reverse items-center'>
 
         <div className='w-1/2 p-32'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsa reprehenderit laudantium illum quidem minima dignissimos consectetur? Suscipit consequatur nesciunt quisquam animi, natus ducimus quis delectus nemo incidunt perspiciatis ex.

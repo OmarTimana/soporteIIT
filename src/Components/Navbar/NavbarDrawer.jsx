@@ -1,7 +1,7 @@
 import { List, ListItem, ListItemButton, ListItemText } from '@mui/material'
 import { Box } from '@mui/system'
 
-export default function NavbarListDrawer() {
+export default function NavbarListDrawer(navLinks) {
 
     return(
 
@@ -11,45 +11,20 @@ export default function NavbarListDrawer() {
 
                 <List disablePadding>
 
-                    <ListItem disablePadding>
+                    {
+                        navLinks.map( item => (
+                            <ListItem disablePadding key={item.title}>
 
-                    <ListItemButton component="a" href="#simple-list">
+                            <ListItemButton component="a" href={item.path}>
 
-                        <ListItemText primary="Item 1" />
+                                <ListItemText primary={item.title} />
 
-                    </ListItemButton>
+                            </ListItemButton>
 
-                    </ListItem>
+                            </ListItem>
 
-                    <ListItem disablePadding>
-
-                    <ListItemButton component="a" href="#simple-list">
-
-                        <ListItemText primary="Item 2" />
-                        
-                    </ListItemButton>
-
-                    </ListItem>
-
-                    <ListItem disablePadding>
-
-                    <ListItemButton component="a" href="#simple-list">
-
-                        <ListItemText primary="Item 3" />
-                        
-                    </ListItemButton>
-
-                    </ListItem>
-
-                    <ListItem disablePadding>
-
-                    <ListItemButton component="a" href="#simple-list">
-
-                        <ListItemText primary="Item 4" />
-                        
-                    </ListItemButton>
-
-                    </ListItem>
+                        ))
+                    }
 
                 </List>
 
