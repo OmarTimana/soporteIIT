@@ -48,7 +48,7 @@ export default function Navbar() {
 
             {/* ------------------------------------ */}
         
-            <Drawer open={open} anchor="right" onClose={ ()=>setOpen(false) }>
+            <Drawer open={open} anchor="right" onClose={ ()=>setOpen(false) } sx={{display: {xs:"flex", lg:"none"}}}>
                 <NavbarListDrawer navLinks={navLinks}></NavbarListDrawer>
             </Drawer>
         </>

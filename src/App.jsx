@@ -5,6 +5,8 @@ import img from '/example.svg'
 import Navbar from './Components/Navbar/Navbar'
 
 import { Box, Button } from '@mui/material'
+import About from './Components/ContentPages/About'
+import Carousel from './Components/ContentPages/Carousel'
 
 
 
@@ -15,6 +17,29 @@ function App() {
     <Box>
       <Navbar></Navbar>
     </Box>
+
+    <Box className='carusel'>
+      <Carousel></Carousel>
+    </Box>
+
+    <Box className='aboutUs'>
+      <About></About>
+    </Box>
+
+    <Box className='mision_vision'>
+      Mision Vision
+    </Box>
+
+    <Box className='mision_vision'>
+      Spaces
+    </Box>
+
+    <Box className='mision_vision'>
+      Footer
+    </Box>
+
+
+
 
 
     <section className='Content'>
