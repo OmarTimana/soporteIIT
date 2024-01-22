@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Box sx={{bgcolor:'gray'}}>
+    <Box>
       <Navbar></Navbar>
     </Box>
 

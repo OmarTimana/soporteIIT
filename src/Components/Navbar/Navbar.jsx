@@ -1,4 +1,4 @@
-import { AppBar, Button, Drawer, IconButton, Toolbar, Typography } from "@mui/material"
+import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box } from "@mui/material"
 import NavbarListDrawer from "./NavbarDrawer"
 import { useState } from "react"
 
@@ -28,13 +28,17 @@ export default function Navbar() {
                     </Button>
                     <Typography sx={{flexGrow:1}}></Typography>
 
-                    {
-                        navLinks.map( item => (
-                            <Button color="inherit" variant="h5" component="a" href={item.path} key={item.title}>{item.title}</Button>
-                        ))
-                    }
+                    <Box sx={{display:{xs:"none", lg:"flex"}}}>
+                        {
+                            navLinks.map( item => (
+                                <Button color="inherit" variant="h5" component="a" href={item.path} key={item.title}>{item.title}</Button>
+                            ))
+                        }
+                    </Box>
 
-                    <IconButton onClick={ () => setOpen(true) } sx={{justifySelf:"flex-end", display: {xl:"none", md:"none", sm:"block"}}}>
+
+
+                    <IconButton onClick={ () => setOpen(true) } sx={{display: {xs:"flex", lg:"none"}}}>
                         <MenuIcon sx={{fontSize: 38}} ></MenuIcon>
                     </IconButton>
 
@@ -44,7 +48,7 @@ export default function Navbar() {
 
             {/* ------------------------------------ */}
         
-            <Drawer open={open} onClose={ ()=>setOpen(false) }>
+            <Drawer open={open} anchor="right" onClose={ ()=>setOpen(false) }>
                 <NavbarListDrawer navLinks={navLinks}></NavbarListDrawer>
             </Drawer>
         </>
