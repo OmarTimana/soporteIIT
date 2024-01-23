@@ -1,10 +1,12 @@
 import { Container } from "@mui/material";
 
-export default function Services() {
+export default function Spaces() {
     return(
         <>
             <Container>
-                <h1>Services compnent</h1>
+
+                <h1>Espacios fisicos</h1>
+
             </Container>
         </>
     )

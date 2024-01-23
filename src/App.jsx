@@ -1,12 +1,13 @@
 
-import uLogo from '/Logo_Universidad.png'
-import img from '/example.svg'
+import { Box } from '@mui/material'
 
 import Navbar from './Components/Navbar/Navbar'
 
-import { Box, Button } from '@mui/material'
 import About from './Components/ContentPages/About'
 import Carousel from './Components/ContentPages/Carousel'
+import Footer from './Components/Footer/Footer'
+import Spaces from './Components/ContentPages/Spaces'
+import Services from './Components/ContentPages/Services'
 
 
 
@@ -18,29 +19,29 @@ function App() {
       <Navbar></Navbar>
     </Box>
 
-    <Box className='carusel'>
+    <Box className='bg-gray-300 w-full h-screen flex flex-row items-center'>
       <Carousel></Carousel>
     </Box>
 
-    <Box className='aboutUs'>
+    <Box className='bg-gray-200 w-full h-screen flex flex-row items-center'>
       <About></About>
     </Box>
 
-    <Box className='mision_vision'>
-      Mision Vision
+    <Box className='bg-gray-300 w-full h-screen flex flex-row items-center'>
+      <Services></Services>
     </Box>
 
-    <Box className='mision_vision'>
-      Spaces
+    <Box className='bg-gray-200 w-full h-screen flex flex-row items-center'>
+      <Spaces></Spaces>
     </Box>
 
-    <Box className='mision_vision'>
-      Footer
+    <Box name="footer" id="footer" className='bg-slate-900 text-white p-5'>
+      <Footer></Footer>
     </Box>
 
 
 
-
+{/* 
 
     <section className='Content'>
 
@@ -96,34 +97,8 @@ function App() {
 
     </section>
 
+    */}
 
-    <section className='Footer bg-slate-900 h-34 py-4 px-12 flex flex-row'>
-
-      <div className='w-1/3'>
-        <img src={uLogo} alt="" className='w-28'/>
-      </div>
-
-      <div className='w-1/3 text-white'>
-        Horarios de Atencion:
-        <br />
-        7am - 1pm
-        <br />
-        2pm - 8pm
-        <br />
-        Sede Torobajo - Bloque tecnologico Piso 3
-      </div>
-
-      <div className='w-1/3 text-white'>
-        Contanctanos a traves de los siguientes correos: 
-        <br />
-        usm@udenar.edu.co
-        <br />
-        infraestructura.tic@udenar.edu.co
-        <br />
-        Telefono: 7244309 Ext: 1118
-      </div>
-
-    </section>
     </>
   )
 }

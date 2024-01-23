@@ -1,4 +1,4 @@
-import { List, ListItem, ListItemButton, ListItemText } from '@mui/material'
+import { IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
 import { Box } from '@mui/system'
 
 export default function NavbarListDrawer( { navLinks } ) {
@@ -16,6 +16,8 @@ export default function NavbarListDrawer( { navLinks } ) {
                             <ListItem disablePadding key={item.title}>
 
                                 <ListItemButton component="a" href={item.path}>
+
+                                    <IconButton>{item.icon}</IconButton>
 
                                     <ListItemText>{item.title}</ListItemText>
 

@@ -1,8 +1,12 @@
+import { Container } from "@mui/material";
+
 export default function About() {
     return(
         <>
         
-            <h1>About Us Component</h1>
+            <Container>
+                <h1>About Us Component</h1>
+            </Container>
         
         
         </>

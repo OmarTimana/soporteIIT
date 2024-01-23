@@ -5,13 +5,16 @@ import { useState } from "react"
 import iitLogo from '/logo_SIIT.png'
 
 import MenuIcon from '@mui/icons-material/Menu';
+import HomeIcon from '@mui/icons-material/Home';
+import ServicesIcon from '@mui/icons-material/MiscellaneousServices';
+import AboutIcon from '@mui/icons-material/Groups2';
+import SpacesIcon from '@mui/icons-material/Apartment';
 
 const navLinks = [
-    {title: "Sobre Nosotros", path: "#about", icon: <MenuIcon></MenuIcon>},
-    {title: "Misión", path: "#mision", icon: <MenuIcon></MenuIcon>},
-    {title: "Visión", path: "#vision", icon: <MenuIcon></MenuIcon>},
-    {title: "Nuestros Servicios", path: "#services", icon: <MenuIcon></MenuIcon>},
-    {title: "Nuestras Instalaciones", path: "#spaces", icon: <MenuIcon></MenuIcon>}
+    {title: "Inicio", path: "/", icon: <HomeIcon></HomeIcon>},
+    {title: "Sobre Nosotros", path: "#mision", icon: <AboutIcon></AboutIcon>},
+    {title: "Servicios", path: "#services", icon: <ServicesIcon></ServicesIcon>},
+    {title: "Nuestras Instalaciones", path: "#spaces", icon: <SpacesIcon></SpacesIcon>}
 ]
 
 export default function Navbar() {
@@ -23,8 +26,8 @@ export default function Navbar() {
             <AppBar position="static">
                 <Toolbar>
 
-                    <Button>
-                        <img src={iitLogo} alt="Logo_Soporte" width={180} />
+                    <Button component="a" href="/">
+                        <img src={iitLogo} alt="Logo_Soporte" width={300} />
                     </Button>
                     <Typography sx={{flexGrow:1}}></Typography>
 
