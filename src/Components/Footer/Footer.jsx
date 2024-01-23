@@ -2,14 +2,16 @@
 
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
-
 import uLogo from '/Logo_Universidad.png'
 
 export default function Footer() {
+
     return(
+
         <>
             <Grid container spacing={4}>
-                <Grid lg={4} md={6} xs={12}  className='my-auto mx-auto max-xl:flex justify-center'>
+
+                <Grid lg={4} md={6} xs={12}  className='my-auto max-xl:flex justify-center'>
                     <img src={uLogo} alt="" className='w-32'/>
                 </Grid>
 
@@ -32,8 +34,11 @@ export default function Footer() {
                     <br />
                     Telefono: 7244309 Ext: 1118
                 </Grid>
+
             </Grid>
 
         </>
+
     )
+    
 }

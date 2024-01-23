@@ -1,8 +1,10 @@
 import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box } from "@mui/material"
-import NavbarListDrawer from "./NavbarDrawer"
+
 import { useState } from "react"
 
 import iitLogo from '/logo_SIIT.png'
+
+import NavbarListDrawer from "./NavbarDrawer"
 
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
@@ -22,13 +24,17 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
 
     return(
+
         <>
+
             <AppBar position="static">
+
                 <Toolbar>
 
                     <Button component="a" href="/">
                         <img src={iitLogo} alt="Logo_Soporte" width={300} />
                     </Button>
+
                     <Typography sx={{flexGrow:1}}></Typography>
 
                     <Box sx={{display:{xs:"none", lg:"flex"}}}>
@@ -39,22 +45,22 @@ export default function Navbar() {
                         }
                     </Box>
 
-
-
                     <IconButton onClick={ () => setOpen(true) } sx={{display: {xs:"flex", lg:"none"}}}>
                         <MenuIcon sx={{fontSize: 38}} ></MenuIcon>
                     </IconButton>
 
                 </Toolbar>
-            </AppBar>
 
+            </AppBar>
 
             {/* ------------------------------------ */}
         
             <Drawer open={open} anchor="right" onClose={ ()=>setOpen(false) } sx={{display: {xs:"flex", lg:"none"}}}>
                 <NavbarListDrawer navLinks={navLinks}></NavbarListDrawer>
             </Drawer>
+
         </>
+        
     )
 
 }
