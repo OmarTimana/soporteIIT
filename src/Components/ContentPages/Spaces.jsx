@@ -9,7 +9,6 @@ export default function Spaces() {
             <Container>
 
             <h1 className='text-2xl text-center font-bold'>Sobre Nosotros</h1>
-            <br />
 
             <Grid container spacing={4}>
                 

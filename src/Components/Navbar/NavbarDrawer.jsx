@@ -1,8 +1,11 @@
-import { IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
+import CloseIcon from '@mui/icons-material/Close';
+import { Fab, IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
 
 import { Box } from '@mui/system'
 
 export default function NavbarListDrawer( { navLinks } ) {
+
+    const flag = true
 
     return(
 
@@ -22,7 +25,13 @@ export default function NavbarListDrawer( { navLinks } ) {
 
                                     <ListItemText>{item.title}</ListItemText>
 
+                                    if (flag) { //terminar esta funcion para que la primera vez solo pinte el FAB
+                                        <Fab><CloseIcon></CloseIcon></Fab>
+                                    }
+
                                 </ListItemButton>
+
+                                
 
                             </ListItem>
 
