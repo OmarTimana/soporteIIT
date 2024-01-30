@@ -8,16 +8,16 @@ export default function Services() {
         <>
             <Container>
 
-                <h1 className='text-2xl text-center font-bold'>Sobre Nosotros</h1>
+                <h1 className='text-2xl text-center font-bold pb-4'>Nuestros Servicios</h1>
                 <br />
 
                 <Grid container spacing={4}>
                     
-                    <Grid lg={12}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptas, facilis commodi cumque dolorem recusandae consequuntur eum numquam minima exercitationem autem adipisci fugiat, laboriosam magni? Quia nam corporis possimus! Deserunt!
+                    <Grid sm={12}>
+                        Contamos con una variedad de servicios
                     </Grid>
 
-                    <Grid lg={12}>
+                    <Grid sm={12} className='mx-auto'>
                         <img src={img} alt="" className='w-64 mx-auto'/>
                     </Grid>
 

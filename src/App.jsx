@@ -9,34 +9,38 @@ import Footer from './Components/Footer/Footer'
 import Spaces from './Components/ContentPages/Spaces'
 import Services from './Components/ContentPages/Services'
 
+
 function App() {
 
   return (
 
     <>
 
-      <Box>
-        <Navbar></Navbar>
-      </Box>
+      <Navbar/>
 
       <Box className='bg-gray-300 w-full flex flex-row items-center pt-3 pb-8'>
-        <Carousel></Carousel>
+        <Carousel/>
       </Box>
 
-      <Box className='bg-gray-200 w-full flex flex-row items-center py-6'>
-        <About></About>
+      <Box id='about' name='about' className='bg-gray-200 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <About/>
       </Box>
 
-      <Box className='bg-gray-300 w-full flex flex-row items-center py-6'>
-        <Services></Services>
+      <Box id='services' name='services' className=' bg-gray-300 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <Services/>
       </Box>
 
-      <Box className='bg-gray-200 w-full flex flex-row items-center py-6'>
-        <Spaces></Spaces>
+      <Box id='spaces' name='spaces' className='bg-gray-200 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <Spaces/>
+      </Box>
+
+      <Box>
+        
+
       </Box>
 
       <Box name="footer" id="footer" className='bg-slate-900 text-white p-5'>
-        <Footer></Footer>
+        <Footer/>
       </Box>
 
     </>

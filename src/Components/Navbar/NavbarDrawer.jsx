@@ -1,11 +1,9 @@
 import CloseIcon from '@mui/icons-material/Close';
-import { Fab, IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
+import { IconButton, List, ListItem, ListItemButton, ListItemText, Fab } from '@mui/material'
 
 import { Box } from '@mui/system'
 
-export default function NavbarListDrawer( { navLinks } ) {
-
-    const flag = true
+export default function NavbarListDrawer( { navLinks, Link, setOpen } ) {
 
     return(
 
@@ -15,29 +13,33 @@ export default function NavbarListDrawer( { navLinks } ) {
 
                 <List disablePadding>
 
+                <Box className='-mb-12 flex flex-row flex-1 justify-end '>
+
+                    <Fab color='error' sx={{transform: 'scale(0.6)'}} onClick={ () => setOpen(false) }>
+                        
+                        <CloseIcon sx={{fontSize: 32}}></CloseIcon>
+
+                    </Fab>
+                    
+                </Box>
+
                     {
                         navLinks.map( item => (
+
                             <ListItem disablePadding key={item.title}>
 
-                                <ListItemButton component="a" href={item.path}>
+                                <ListItemButton component={Link} to={item.path} smooth onClick={ () => setOpen(false) }>
 
                                     <IconButton>{item.icon}</IconButton>
 
                                     <ListItemText>{item.title}</ListItemText>
 
-                                    if (flag) { //terminar esta funcion para que la primera vez solo pinte el FAB
-                                        <Fab><CloseIcon></CloseIcon></Fab>
-                                    }
-
                                 </ListItemButton>
-
-                                
 
                             </ListItem>
 
                         ))
                     }
-
 
                 </List>
 
