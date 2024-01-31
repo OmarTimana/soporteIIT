@@ -1,4 +1,4 @@
-import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box } from "@mui/material"
+import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box, Tabs, Tab } from "@mui/material"
 
 import { useState } from "react"
 
@@ -13,8 +13,6 @@ import AboutIcon from '@mui/icons-material/Groups2';
 import SpacesIcon from '@mui/icons-material/Apartment';
 
 import { HashLink as Link } from "react-router-hash-link";
-
-import App from "../../App";
 
 const navLinks = [
     {title: "Inicio", path: "/", icon: <HomeIcon></HomeIcon>},
@@ -44,13 +42,15 @@ export default function Navbar() {
                     <Typography sx={{flexGrow:1}}></Typography>
 
                     <Box sx={{display:{xs:"none", lg:"flex"}}}>
+
                         {
                             navLinks.map( item => (
 
-                                <Button color="inherit" variant="h5" component={Link} to={item.path} key={item.title} smooth>{item.title}</Button>
+                                <Button color="inherit" variant="h5" component={Link} to={item.path} key={item.title} smooth='true'>{item.title}</Button>
                             
                             ))
                         }
+                       
                     </Box>
 
                     <IconButton onClick={ () => setOpen(true) } sx={{display: {xs:"flex", lg:"none"}}}>

@@ -1,16 +1,15 @@
-import { Container } from "@mui/material";
+import { Button, Container } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import img from '../../../public/example.svg'
-
-
-
+import { Link } from "react-router-dom";
 
 export default function Spaces() {
 
     return(
 
         <>
+
             <Container>
 
                 <h1 className='text-2xl text-center font-bold pb-4'>Nuestros Espacios</h1>
@@ -42,6 +41,10 @@ export default function Spaces() {
                         <h1 className='text-xl font-bold'>Nuestra Visión</h1>
 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta velit mollitia cumque consequatur fuga culpa aliquid, voluptate quas! Repellat quas veniam possimus ullam fuga sed reiciendis quam cupiditate alias?
+                        
+                        <Button component={Link} to='/classrooms'>
+                         Ver mas ...
+                        </Button>
 
                     </Grid>
 

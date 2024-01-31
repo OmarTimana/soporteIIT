@@ -18,6 +18,8 @@ function App() {
 
       <Navbar/>
 
+
+
       <Box className='bg-gray-300 w-full flex flex-row items-center pt-3 pb-8'>
         <Carousel/>
       </Box>

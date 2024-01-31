@@ -28,7 +28,7 @@ export default function NavbarListDrawer( { navLinks, Link, setOpen } ) {
 
                             <ListItem disablePadding key={item.title}>
 
-                                <ListItemButton component={Link} to={item.path} smooth onClick={ () => setOpen(false) }>
+                                <ListItemButton component={Link} to={item.path} smooth='true' onClick={ () => setOpen(false) }>
 
                                     <IconButton>{item.icon}</IconButton>
 
