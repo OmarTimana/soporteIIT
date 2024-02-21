@@ -1,5 +1,6 @@
-import { Container, Box } from "@mui/material";
+import { Container, Box, Button } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { NavLink as Link } from "react-router-dom";
 
 import img from '../../../public/example.svg'
 
@@ -35,6 +36,10 @@ export default function Services() {
 
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta velit mollitia cumque consequatur fuga culpa aliquid, voluptate quas! Repellat quas veniam possimus ullam fuga sed reiciendis quam cupiditate alias?
                     </Grid>
+
+                    <Button color="primary">
+                            <Link to="/manuals">Ver mas..</Link>
+                    </Button>
 
                 </Grid>
 
