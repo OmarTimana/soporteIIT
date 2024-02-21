@@ -4,24 +4,19 @@ import { useState } from "react"
 
 import iitLogo from '/logo_SIIT.png'
 
-import NavbarListDrawer from "./NavbarDrawer"
 
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
-import ServicesIcon from '@mui/icons-material/MiscellaneousServices';
-import AboutIcon from '@mui/icons-material/Groups2';
-import SpacesIcon from '@mui/icons-material/Apartment';
+
 
 import { HashLink as Link } from "react-router-hash-link";
+import NavbarListDrawer2 from "./NavbarDrawer2";
 
 const navLinks = [
     {title: "Inicio", path: "/", icon: <HomeIcon></HomeIcon>},
-    {title: "Sobre Nosotros", path: "#about", icon: <AboutIcon></AboutIcon>},
-    {title: "Servicios", path: "#services", icon: <ServicesIcon></ServicesIcon>},
-    {title: "Nuestras Instalaciones", path: "#spaces", icon: <SpacesIcon></SpacesIcon>}
 ]
 
-export default function Navbar() {
+export default function Navbar2() {
 
     const [open, setOpen] = useState(false)
 
@@ -67,7 +62,7 @@ export default function Navbar() {
         
             <Drawer open={open} anchor="right" onClose={ ()=>setOpen(false) } sx={{display: {xs:"flex", lg:"none"}}}>
                 
-                <NavbarListDrawer navLinks={navLinks} link={Link} setOpen={setOpen}></NavbarListDrawer>
+                <NavbarListDrawer2 navLinks={navLinks} link={Link} setOpen={setOpen}></NavbarListDrawer2>
 
             </Drawer>
 

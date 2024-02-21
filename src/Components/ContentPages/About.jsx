@@ -1,12 +1,14 @@
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import { Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 
 import img from '../../../public/example.svg'
 
 export default function About() {
+    
     return(
-        <>
-        
+
+        <Box id='about' name='about' className='bg-gray-200 w-full flex flex-row items-center py-6 xl:h-screen'>
+                
             <Container>
 
                 <h1 className='text-2xl text-center font-bold pb-4'>Sobre Nosotros</h1>
@@ -36,7 +38,9 @@ export default function About() {
                 </Grid>
         
             </Container>
-        
-        </>
+
+        </Box>
+
     )
+
 }

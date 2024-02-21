@@ -1,5 +1,6 @@
 
 
+import { Box } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import uLogo from '/Logo_Universidad.png'
@@ -8,7 +9,8 @@ export default function Footer() {
 
     return(
 
-        <>
+        <Box name="footer" id="footer" className='bg-slate-900 text-white p-5'>
+
             <Grid container spacing={4}>
 
                 <Grid lg={4} md={6} xs={12}  className='my-auto max-xl:flex justify-center'>
@@ -37,7 +39,7 @@ export default function Footer() {
 
             </Grid>
 
-        </>
+        </Box>
 
     )
     

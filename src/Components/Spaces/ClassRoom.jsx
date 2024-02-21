@@ -1,59 +1,61 @@
 import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Container } from "@mui/material";
-import Navbar from "../Navbar/Navbar";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
+import Navbar2 from "../Navbar/Navbar2";
 
 export default function ClassRoom() {
     
     return(
         
-        <>
-            <Navbar></Navbar>
+      <>
 
-            <Container className="p-6">
+        <Navbar2/>
 
-                <Grid container spacing={4} justifyContent={'center'} alignItems={'center'}>
+        <Container className="p-6">
 
-                    {itemData.map( (item) => (
-                        <Grid key={item.img}>
-                            <Card key={item.img} sx={{ maxWidth: 320 }}>
+            <Grid container spacing={4} justifyContent={'center'} alignItems={'center'}>
 
-                                <CardActionArea key={item.img}>
+                {itemData.map( (item) => (
+                    <Grid key={item.img}>
+                        <Card key={item.img} sx={{ maxWidth: 320 }}>
 
-                                    <CardMedia component='img' height='140' image={item.img} alt={item.title}>
-                                    </CardMedia>
+                            <CardActionArea key={item.img}>
 
-                                    <CardContent>
+                                <CardMedia component='img' height='140' image={item.img} alt={item.title}>
+                                </CardMedia>
 
-                                        <Typography gutterBottom variant="h5" component="div">
-                                            {item.title}
-                                        </Typography>
+                                <CardContent>
 
-                                        <Typography variant="body2" color="text.secondary">
-                                            {item.author}
-                                        </Typography>
-                                        
-                                    </CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        {item.title}
+                                    </Typography>
 
-                                </CardActionArea>
+                                    <Typography variant="body2" color="text.secondary">
+                                        {item.author}
+                                    </Typography>
+                                    
+                                </CardContent>
 
-
-                                <CardActions>
-                                    <Button size="small" color="primary">
-                                    Ver Mas ...
-                                    </Button>
-                                </CardActions>
+                            </CardActionArea>
 
 
-                            </Card>
-                        </Grid>
-                    ))}
+                            <CardActions>
+                                <Button size="small" color="primary">
+                                Ver Mas ...
+                                </Button>
+                            </CardActions>
 
 
-                </Grid>
+                        </Card>
+                    </Grid>
+                ))}
 
-            </Container>
 
-        </>
+            </Grid>
+
+        </Container>
+
+      </>
+
     )
 }
 

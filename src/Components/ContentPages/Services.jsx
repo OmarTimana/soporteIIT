@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Container, Box } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 import img from '../../../public/example.svg'
@@ -6,6 +6,9 @@ import img from '../../../public/example.svg'
 export default function Services() {
     return(
         <>
+
+        <Box id='services' name='services' className=' bg-gray-300 w-full flex flex-row items-center py-6 xl:h-screen'>
+        
             <Container>
 
                 <h1 className='text-2xl text-center font-bold pb-4'>Nuestros Servicios</h1>
@@ -36,6 +39,7 @@ export default function Services() {
                 </Grid>
 
             </Container>
+        </Box>
 
         </>
     )
