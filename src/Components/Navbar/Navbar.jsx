@@ -14,6 +14,8 @@ import SpacesIcon from '@mui/icons-material/Apartment';
 
 import { HashLink as Link } from "react-router-hash-link";
 
+
+
 const navLinks = [
     {title: "Inicio", path: "/", icon: <HomeIcon></HomeIcon>},
     {title: "Sobre Nosotros", path: "#about", icon: <AboutIcon></AboutIcon>},
@@ -22,6 +24,10 @@ const navLinks = [
 ]
 
 export default function Navbar() {
+
+
+
+
 
     const [open, setOpen] = useState(false)
 

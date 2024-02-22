@@ -13,12 +13,12 @@ export default function Carousel() {
 
         <Box className='bg-gray-300 w-full flex flex-row items-center pt-3 pb-8'>
 
-            <Container>
+            <Container className="p-2 w-1/2">
 
-                <h1 className="font-bold text-3xl text-center mb-4">Acompanamientos Recientes</h1>
+                <h1 className="font-bold text-3xl text-center mb-2">Eventos Recientes</h1>
 
-                <Paper className="p-3">
-                    <CarouselF className="">
+                <Paper className="p-3" sx={{backgroundColor: "gray"}}>
+                    <CarouselF className="bg-grey-500">
                         {
                             events.map( (item) => <Item key={item.id} item={item} /> )
                         }

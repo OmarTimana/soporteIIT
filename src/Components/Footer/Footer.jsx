@@ -20,15 +20,13 @@ export default function Footer() {
                 <Grid lg={4} md={6} xs={12} className='my-auto mx-auto text-center justify-items-center'>
                     Horarios de Atencion:
                     <br />
-                    7am - 1pm
-                    <br />
-                    2pm - 8pm
+                    7am - 8pm
                     <br />
                     Sede Torobajo - Bloque tecnologico Piso 3
                 </Grid>
 
                 <Grid lg={4} xs={12} className='my-auto mx-auto text-center xl:max-2xl:text-right'>
-                    Contanctanos a traves de los siguientes correos: 
+                    Contactanos a traves de los siguientes correos: 
                     <br />
                     usm@udenar.edu.co
                     <br />
