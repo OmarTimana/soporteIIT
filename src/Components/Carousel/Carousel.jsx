@@ -11,9 +11,9 @@ export default function Carousel() {
 
     return(
 
-        <Box className='bg-gray-300 w-full flex flex-row items-center pt-3 pb-8'>
+        <Box className='bg-gray-300 w-full flex flex-row items-center pt-1 pb-4'>
 
-            <Container className="p-2 w-1/2">
+            <Box className="p-2 w-full">
 
                 <h1 className="font-bold text-3xl text-center mb-2">Eventos Recientes</h1>
 
@@ -25,7 +25,7 @@ export default function Carousel() {
                     </CarouselF>
                 </Paper>
 
-            </Container>
+            </Box>
 
         </Box>
 

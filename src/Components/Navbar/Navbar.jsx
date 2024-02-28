@@ -1,4 +1,4 @@
-import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box } from "@mui/material"
+import { AppBar, Button, Drawer, IconButton, Toolbar, Typography, Box, Tabs, Tab } from "@mui/material"
 
 import { useState } from "react"
 
@@ -12,9 +12,8 @@ import ServicesIcon from '@mui/icons-material/MiscellaneousServices';
 import AboutIcon from '@mui/icons-material/Groups2';
 import SpacesIcon from '@mui/icons-material/Apartment';
 
-import { HashLink as Link } from "react-router-hash-link";
-
-
+import { NavHashLink as Link, NavHashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 const navLinks = [
     {title: "Inicio", path: "/", icon: <HomeIcon></HomeIcon>},
@@ -23,11 +22,11 @@ const navLinks = [
     {title: "Nuestras Instalaciones", path: "#spaces", icon: <SpacesIcon></SpacesIcon>}
 ]
 
+
 export default function Navbar() {
 
-
-
-
+    const { hash } = useLocation();
+    const isActive = (iHash) => hash === iHash;
 
     const [open, setOpen] = useState(false)
 
@@ -35,7 +34,7 @@ export default function Navbar() {
 
         <>
 
-            <AppBar position='static'>
+            <AppBar position="sticky">
 
                 <Toolbar>
 
@@ -49,13 +48,46 @@ export default function Navbar() {
 
                     <Box sx={{display:{xs:"none", lg:"flex"}}}>
 
-                        {
+                    <NavHashLink
+                        className="sticky"
+                        to="#about"
+                        style={
+                        isActive("#about")
+                            ? {
+                                color: "red"
+                            }
+                            : {}
+                        }
+                        activeStyle={{
+                        fontWeight: "bold",
+                        color: "red"
+                        }}
+                    >
+                        Scroll to Tag1
+                    </NavHashLink>
+                    
+                    <NavHashLink
+                        className="sticky"
+                        to="#services"
+                        style={
+                        isActive("#services")
+                            ? {
+                                color: "red"
+                            }
+                            : {}
+                        }
+                    >
+                        Scroll to Tag2
+                    </NavHashLink>
+
+
+                        {/* {
                             navLinks.map( item => (
 
                                 <Button color="inherit" variant="h5" component={Link} to={item.path} key={item.title} smooth='true'>{item.title}</Button>
                             
                             ))
-                        }
+                        } */}
                        
                     </Box>
 

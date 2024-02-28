@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Container } from "@mui/material";
+import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Container, Modal, Box } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import Navbar2 from "../Navbar/Navbar2";
 
@@ -42,7 +42,12 @@ export default function ClassRoom() {
 
                           <CardActions>
                               <Button size="medium" color="primary">
-                              Ver Mas ...
+                                Conocer mas
+                                <Modal>
+                                    <Box>
+                                        Texto del modal
+                                    </Box>
+                                </Modal>
                               </Button>
                           </CardActions>
 

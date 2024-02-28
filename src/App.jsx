@@ -5,7 +5,6 @@ import Footer from './Components/Footer/Footer'
 import ClassRoom from './Components/Spaces/ClassRoom'
 import Manuals from './Components/ServicesExt/Manuals'
 
-
 function App() {
 
   return (

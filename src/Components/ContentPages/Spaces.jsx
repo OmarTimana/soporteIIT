@@ -21,8 +21,7 @@ export default function Spaces() {
                     
                     <Grid sm={12}>
                         
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptas, facilis commodi cumque dolorem recusandae consequuntur eum numquam minima exercitationem autem adipisci fugiat, laboriosam magni? Quia nam corporis possimus! Deserunt!
-
+                        Nuestra oficina se encuentra ubicada en el 3er piso del bloque tecnologico
                     </Grid>
 
                     <Grid sm={12}>
@@ -33,20 +32,11 @@ export default function Spaces() {
 
                     <Grid>
 
-                        <h1 className='text-xl font-bold'>Nuestra Misión</h1>
+                        Ademas de esto, brindamos soporte a todas las aulas del bloque tecnologico
+                        <br />
 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo placeat nisi alias, maxime optio non nihil libero amet sed! Labore aperiam sapiente voluptate molestiae incidunt in reiciendis delectus obcaecati.
-
-                    </Grid>
-
-                    <Grid>
-
-                        <h1 className='text-xl font-bold'>Nuestra Visión</h1>
-
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta velit mollitia cumque consequatur fuga culpa aliquid, voluptate quas! Repellat quas veniam possimus ullam fuga sed reiciendis quam cupiditate alias?
-                        
                         <Button color="primary">
-                            <Link target="_blank" to="/classrooms">Ver mas..</Link>
+                            <Link target="_blank" to="/classrooms">Conocer más sobre las aulas...</Link>
                         </Button>
 
                     </Grid>

@@ -1,4 +1,4 @@
-import { Container, Box, Button } from "@mui/material";
+import { Container, Box, Button, Typography } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { NavLink as Link } from "react-router-dom";
 
@@ -17,29 +17,45 @@ export default function Services() {
 
                 <Grid container spacing={4}>
                     
-                    <Grid sm={12}>
-                        Contamos con una variedad de servicios
-                    </Grid>
-
                     <Grid sm={12} className='mx-auto'>
                         <img src={img} alt="" className='w-64 mx-auto'/>
                     </Grid>
 
-                    <Grid>
-                        <h1 className='text-xl font-bold'>Nuestra Misión</h1>
-
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo placeat nisi alias, maxime optio non nihil libero amet sed! Labore aperiam sapiente voluptate molestiae incidunt in reiciendis delectus obcaecati.
+                    <Grid sm={12}>
+                        <Typography variant="h6">
+                            Contamos con los siguientes servicios:
+                        </Typography>
                     </Grid>
 
-                    <Grid>
-                        <h1 className='text-xl font-bold'>Nuestra Visión</h1>
 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta velit mollitia cumque consequatur fuga culpa aliquid, voluptate quas! Repellat quas veniam possimus ullam fuga sed reiciendis quam cupiditate alias?
+                    <Grid>
+                        <ul className="text-lg list-disc">
+                            <li>
+                                Reservas del Auditorio o salas de conferencias
+                            </li> 
+                            <li>
+                                Solicitudes de instalacion de software en aulas, conceptos tecnicos, dar de baja equipos
+                            </li>
+                        </ul>
+                        <p className="text-lg font-semibold">
+                            Para realizar estas solicitudes comuníquese por correo o teléfono con la oficina. 
+                            <p>Correo: _usm@Udenar.edu.co</p> 
+                            <p>Teléfono: 7244309 Ext. 1118</p>
+                        </p>
+
+                        <Box>
+                            <p className="text-lg">Tambien puedes acceder a los manuales de instalacion disponibles</p>
+
+                            <Button color="primary">
+                                <Link target="_blank" to="/manuals">Manuales de Instalación</Link>
+                            </Button>
+
+
+                        </Box>
+
                     </Grid>
 
-                    <Button color="primary">
-                            <Link to="/manuals">Ver mas..</Link>
-                    </Button>
+
 
                 </Grid>
 

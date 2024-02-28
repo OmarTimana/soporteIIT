@@ -23,7 +23,7 @@ export default function Manuals() {
                         <Grid key={item.id}>
                             <Card key={item.id} sx={{ maxWidth: 300 }} className="text-center">
 
-                                <CardMedia className="-mb-4" component='img' sx={{ height: 310}} image={item.qr} alt={item.title}>
+                                <CardMedia className="-mb-4" component='img' sx={{ height: 310, objectFit: "cover"}} image={item.qr} alt={item.title}>
                                 </CardMedia>
 
                                 <CardContent className="text-center -mb-6">
