@@ -11,7 +11,7 @@ export default function Spaces() {
 
         <>
 
-        <Box id='spaces' name='spaces' className='bg-gray-200 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <Box id='spaces' name='spaces' className='bg-gray-300 w-full flex flex-row items-center py-6 xl:h-screen'>
             
             <Container >
 

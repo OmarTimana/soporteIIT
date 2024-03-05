@@ -1,21 +1,22 @@
-import { Container, Paper, Box } from "@mui/material";
+import { Paper, Box } from "@mui/material";
 
 import CarouselF from 'react-material-ui-carousel'
 
 import Item from "./Item";
 
 import events from "../../helper/events.json"
+import Services from "../ContentPages/Services";
 
 
 export default function Carousel() {
 
     return(
 
-        <Box className='bg-gray-300 w-full flex flex-row items-center pt-1 pb-4'>
+        <Box  id="top" name="top" className='bg-gray-300 w-full flex flex-row items-center -pt-12'>
 
-            <Box className="p-2 w-full">
+            <Box className="pb-3 w-full">
 
-                <h1 className="font-bold text-3xl text-center mb-2">Eventos Recientes</h1>
+                <h1 className="font-bold text-3xl text-center pt-4 mb-2">Eventos Recientes</h1>
 
                 <Paper className="p-3" sx={{backgroundColor: "gray"}}>
                     <CarouselF className="bg-grey-500">
@@ -24,6 +25,8 @@ export default function Carousel() {
                         }
                     </CarouselF>
                 </Paper>
+
+                <Services/>
 
             </Box>
 
