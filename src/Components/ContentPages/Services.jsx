@@ -1,8 +1,9 @@
-import { Container, Box, Button } from "@mui/material";
+import { Container, Box } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
-import { NavLink as Link } from "react-router-dom";
+// import { NavLink as Link } from "react-router-dom";
 
-import manual from "../../assets/Sicons/manual.png"
+import services from "../../helper/services.json"
+import Service from "../ServicesExt/Service";
 
 
 export default function Services() {
@@ -13,37 +14,11 @@ export default function Services() {
         
             <Container>
 
-                <Grid container spacing={4} className="flex flex-col items-center justify-around">
+                <Grid container spacing={4} className="flex flex-col items-center justify-around py-4">
 
-                    <Grid>
-                        <Button color="primary" className="flex flex-col gap-4" component={Link} target="_blank" to="/manuals">
-                            <img src={manual} alt="" width={65} />
-                            Manuales de Instalación
-                        </Button>
-                    </Grid>
-
-                    <Grid>
-                        <Button color="primary" className="flex flex-col gap-4" component={Link} target="_blank" to="/manuals">
-                            <img src={manual} alt="" width={65} />
-                            Manuales de Instalación
-                        </Button>
-                    </Grid>
-
-                    <Grid>
-                        <Button color="primary" className="flex flex-col gap-4" component={Link} target="_blank" to="/manuals">
-                            <img src={manual} alt="" width={65} />
-                            Manuales de Instalación
-                        </Button>
-                    </Grid>
-
-                    <Grid>
-                        <Button color="primary" className="flex flex-col gap-4" component={Link} target="_blank" to="/manuals">
-                            <img src={manual} alt="" width={65} />
-                            Manuales de Instalación
-                        </Button>
-                    </Grid>
-
-
+                    {
+                        services.map( (service) => <Service key={service.id} service={service}/>)
+                    }
 
                 </Grid>
 

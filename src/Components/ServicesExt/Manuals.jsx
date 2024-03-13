@@ -1,15 +1,12 @@
 import manuals from "../../helper/manuals.json"
 import { Card, CardMedia, CardContent, Typography, CardActions, Button, Container } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
-import Navbar2 from "../Navbar/Navbar2";
-
 
 export default function Manuals() {
     
     return(
-        <>
 
-            <Navbar2/>
+        <>
 
             <Container className="p-6">
 

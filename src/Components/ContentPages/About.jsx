@@ -7,7 +7,7 @@ export default function About() {
     
     return(
 
-        <Box id='about' name='about' className='bg-gray-200 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <Box id='about' name='about' className='bg-gray-200 w-full flex flex-row items-center py-6'>
                 
             <Container>
 

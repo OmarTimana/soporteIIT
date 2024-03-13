@@ -4,129 +4,384 @@
         "id": "102",
         "name": "Aula 102",
         "img": "../src/assets/Aulas/Aula 102/102.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "104",
         "name": "Aula 104",
         "img": "../src/assets/Aulas/Aula 104/104.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "301",
         "name": "Aula 301",
         "img": "../src/assets/Aulas/Aula 301/301.jpg",
-        "images": [
-            
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
         ],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "302",
         "name": "Aula 302",
         "img": "../src/assets/Aulas/Aula 302/302.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "303",
         "name": "Aula 303",
         "img": "../src/assets/Aulas/Aula 303/303.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "304",
         "name": "Aula 304",
         "img": "../src/assets/Aulas/Aula 304/304.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "401",
         "name": "Aula 401",
         "img": "../src/assets/Aulas/Aula 401/401.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "402",
         "name": "Aula 402",
         "img": "../src/assets/Aulas/Aula 402/402.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "403",
         "name": "Aula 403",
         "img": "../src/assets/Aulas/Aula 403/403.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "404",
         "name": "Aula 404",
         "img": "../src/assets/Aulas/Aula 404/404.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "405",
         "name": "Aula 405",
         "img": "../src/assets/Aulas/Aula 405/405.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "406",
         "name": "Aula 406",
         "img": "../src/assets/Aulas/Aula 406/406.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "407",
         "name": "Aula 407",
         "img": "../src/assets/Aulas/Aula 407/407.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "408",
         "name": "Aula 408",
         "img": "../src/assets/Aulas/Aula 408/408.jpg",
-        "images": [],
-        "description": "Esta aula se encuentra habilitada para los estudiantes"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     },
 
     {
         "id": "1002",
         "name": "Sala de VideoConferencias 2",
         "img": "../src/assets/Aulas/Videoconferencias2/videoconferencias2.jpg",
-        "images": [],
-        "description": "Esta sala se encuentra en la oficina de IIT en el tercer piso del bloque tecnologico"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "Esta sala se encuentra en la oficina de IIT en el tercer piso del bloque tecnologico",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
+
     },
 
     {
         "id": "1003",
         "name": "Auditorio Bloque Tecnologico",
         "img": "../src/assets/Aulas/Auditorio/auditorio.jpg",
-        "images": [],
-        "description": "El auditorio se encuentra ubicado en el primer piso del Bloque tecnoligico"
+        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "description": "El auditorio se encuentra ubicado en el primer piso del Bloque tecnoligico",
+        "equipment": [
+            {
+                "ram": " 16GB",
+                "proccesor": "Intel i5",
+                "screen": ""
+            }
+        ],
+        "Programs": [
+            {
+                "name": "Autocad"
+            },
+
+            {
+                "name": "Cabri+ y Cabri 3D"
+            }
+        ]
     }
 ]

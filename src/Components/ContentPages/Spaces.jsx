@@ -11,13 +11,14 @@ export default function Spaces() {
 
         <>
 
-        <Box id='spaces' name='spaces' className='bg-gray-300 w-full flex flex-row items-center py-6 xl:h-screen'>
+        <Box id='spaces' name='spaces' className='bg-gray-300 w-full flex flex-row items-center xl:h-screen'>
             
             <Container >
 
+                <Grid container spacing={2}>
+
                 <h1 className='text-2xl text-center font-bold pb-4'>Nuestros Espacios</h1>
 
-                <Grid container spacing={4}>
                     
                     <Grid sm={12}>
                         

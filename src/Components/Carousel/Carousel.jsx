@@ -12,11 +12,11 @@ export default function Carousel() {
 
     return(
 
-        <Box  id="top" name="top" className='bg-gray-300 w-full flex flex-row items-center -pt-12'>
+        <Box  id="top" name="top" className='bg-gray-300 w-full flex flex-row items-center pt-4'>
 
             <Box className="pb-3 w-full">
 
-                <h1 className="font-bold text-3xl text-center pt-4 mb-2">Eventos Recientes</h1>
+                <h1 className="font-bold text-3xl text-center mb-2">Eventos Recientes</h1>
 
                 <Paper className="p-3" sx={{backgroundColor: "gray"}}>
                     <CarouselF className="bg-grey-500">

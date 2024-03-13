@@ -1,9 +1,12 @@
+
+import { List, Fab } from '@mui/material'
+
 import CloseIcon from '@mui/icons-material/Close';
-import { IconButton, List, Fab, Typography } from '@mui/material'
+
 
 import { Box } from '@mui/system'
 
-export default function NavbarListDrawer( { navLinks, Link, setOpen } ) {
+export default function NavbarListDrawer( { Logo, Link, Scroll, setOpen } ) {
 
     return(
 
@@ -13,45 +16,42 @@ export default function NavbarListDrawer( { navLinks, Link, setOpen } ) {
 
                 <List disablePadding>
 
-                <Box className='-mb-12 flex flex-row flex-1 justify-end '>
+                    <Box className='-mb-12 flex flex-row flex-1 justify-end '>
 
-                    <Fab color='error' sx={{transform: 'scale(0.6)'}} onClick={ () => setOpen(false) }>
+                        <Fab color='error' sx={{transform: 'scale(0.6)'}} onClick={ () => setOpen(false) }>
+                            
+                            <CloseIcon sx={{fontSize: 32}}></CloseIcon>
+
+                        </Fab>
                         
-                        <CloseIcon sx={{fontSize: 32}}></CloseIcon>
+                    </Box>
 
-                    </Fab>
-                    
-                </Box>
+                    <ul className="flex flex-col mx-3 gap-3 mt-1 font-bold items-start text-stone-700">
+                        <li>
+                            <Link  onClick={ () => setOpen(false) } to="/">
+                                INICIO
+                            </Link>
+                        </li>
+                        <li>
+                            <Link  onClick={ () => setOpen(false) } to="/about">
+                                SOBRE NOSOTROS
+                            </Link>
+                        </li>
+                        <li>
+                            <Link  onClick={ () => setOpen(false) } to="/spaces">
+                                NUESTROS ESPACIOS
+                            </Link>
+                        </li>
+                        <li>
 
-                    {
-                        navLinks.map( item => (
+                            <Logo>
+                                <Scroll  onClick={ () => setOpen(false) } to="footer" smooth={true} duration={400}>
+                                    CONTACTANOS
+                                </Scroll>
+                            </Logo>
 
-                            // <ListItem disablePadding key={item.title}>
-
-                            //     <ListItemButton component={Link} to={item.path} onClick={ () => setOpen(false) }>
-
-                            //         <IconButton>{item.icon}</IconButton>
-
-                            //         <ListItemText>{item.title}</ListItemText>
-
-                            //     </ListItemButton>
-
-                            // </ListItem>
-
-                            <ul key={item.title}>
-                                <li>
-                                    <Link onClick={ () => setOpen(false) } to={item.path} spy={true} smooth={true} offset={-113.5} duration={400} activeStyle={{borderBottom: "solid gray 2px", borderTop: "solid gray 2px"}} className="flex flex-row items-center text-stone-700">
-                                        <IconButton>{item.icon}</IconButton>
-                                        <Typography variant="h6" fontWeight="bold">
-                                        {item.title}
-                                        </Typography>
-                                    </Link>
-                                </li>
-
-                            </ul>
-
-                        ))
-                    }
+                        </li>
+                    </ul>
 
                 </List>
 
