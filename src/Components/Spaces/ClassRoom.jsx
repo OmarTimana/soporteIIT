@@ -52,7 +52,7 @@ export default function ClassRoom() {
 
 
                             <CardActions>
-                                
+
                                 <Button variant="outlined" onClick={handleClickOpen}>
                                     Conocer mas
                                 </Button>
