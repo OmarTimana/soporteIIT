@@ -6,14 +6,15 @@
         "img": "../src/assets/Aulas/Aula 102/102.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
                 "proccesor": "Intel i5",
-                "screen": ""
+                "screen": "19"
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -30,6 +31,7 @@
         "img": "../src/assets/Aulas/Aula 104/104.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -37,7 +39,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -54,6 +56,7 @@
         "img": "../src/assets/Aulas/Aula 301/301.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -61,7 +64,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -78,6 +81,7 @@
         "img": "../src/assets/Aulas/Aula 302/302.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -85,7 +89,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -102,6 +106,7 @@
         "img": "../src/assets/Aulas/Aula 303/303.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -109,7 +114,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -126,6 +131,7 @@
         "img": "../src/assets/Aulas/Aula 304/304.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -133,7 +139,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -150,6 +156,7 @@
         "img": "../src/assets/Aulas/Aula 401/401.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -157,7 +164,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -174,6 +181,7 @@
         "img": "../src/assets/Aulas/Aula 402/402.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -181,7 +189,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -198,6 +206,7 @@
         "img": "../src/assets/Aulas/Aula 403/403.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -205,7 +214,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -222,6 +231,7 @@
         "img": "../src/assets/Aulas/Aula 404/404.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -229,7 +239,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -246,6 +256,7 @@
         "img": "../src/assets/Aulas/Aula 405/405.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -253,7 +264,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -270,6 +281,7 @@
         "img": "../src/assets/Aulas/Aula 406/406.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -277,7 +289,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -294,6 +306,7 @@
         "img": "../src/assets/Aulas/Aula 407/407.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -301,7 +314,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -318,6 +331,7 @@
         "img": "../src/assets/Aulas/Aula 408/408.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -325,7 +339,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -342,6 +356,7 @@
         "img": "../src/assets/Aulas/Videoconferencias2/videoconferencias2.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "Esta sala se encuentra en la oficina de IIT en el tercer piso del bloque tecnologico",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -349,7 +364,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },
@@ -367,6 +382,7 @@
         "img": "../src/assets/Aulas/Auditorio/auditorio.jpg",
         "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
         "description": "El auditorio se encuentra ubicado en el primer piso del Bloque tecnoligico",
+        "nEquipment": "36",
         "equipment": [
             {
                 "ram": " 16GB",
@@ -374,7 +390,7 @@
                 "screen": ""
             }
         ],
-        "Programs": [
+        "programs": [
             {
                 "name": "Autocad"
             },

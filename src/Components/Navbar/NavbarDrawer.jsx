@@ -44,11 +44,9 @@ export default function NavbarListDrawer( { Logo, Link, Scroll, setOpen } ) {
                         </li>
                         <li>
 
-                            <Logo>
-                                <Scroll  onClick={ () => setOpen(false) } to="footer" smooth={true} duration={400}>
-                                    CONTACTANOS
-                                </Scroll>
-                            </Logo>
+                            <Scroll  onClick={ () => setOpen(false) } to="footer" smooth={true} duration={400}>
+                                CONTACTANOS
+                            </Scroll>
 
                         </li>
                     </ul>

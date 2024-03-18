@@ -2,6 +2,7 @@ import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, 
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 
 import classrooms from "../../helper/classrooms.json"
+import Model from "./Model";
 import { useState } from "react";
 
 export default function ClassRoom() {
@@ -9,17 +10,27 @@ export default function ClassRoom() {
     const [open, setOpen] = useState(false);
 
     const handleClickOpen = () => {
-      setOpen(true);
+        setOpen(true);
+        console.log(open)
     };
-  
+
     const handleClose = () => {
-      setOpen(false);
+        setOpen(false);
+        console.log(open)
     };
-  
+
+    const [tempdata, setTempdata] = useState([])
+
+    const getData = (name, nEquipment, programs) => {
+        let tempData = [name, nEquipment, programs]
+        setTempdata(item => [1, ...tempData])
+        console.log(tempdata[3])
+    }
 
     
   return(
     
+ 
       
     <>
 
@@ -31,7 +42,7 @@ export default function ClassRoom() {
                     <Grid key={item.id}>
                         <Card key={item.id} sx={{ maxWidth: 360, maxHeight: 480 }}>
 
-                            <CardActionArea key={item.id}>
+                            <CardActionArea key={item.id} onClick={handleClickOpen}>
 
                                 <CardMedia component='img' height={200} sx={{maxHeight: 200}} image={item.img} alt={item.name}>
                                 </CardMedia>
@@ -53,8 +64,8 @@ export default function ClassRoom() {
 
                             <CardActions>
 
-                                <Button variant="outlined" onClick={handleClickOpen}>
-                                    Conocer mas
+                                <Button variant="outlined" onClick={()=>{handleClickOpen(); getData(item.name, item.nEquipment, item.programs)}}>
+                                    Conocer mas...
                                 </Button>
                                 
                             </CardActions>
@@ -66,17 +77,22 @@ export default function ClassRoom() {
                 ))}
 
 
-                <Dialog open={open} onClose={handleClose}>
+                {/* <Dialog open={open} onClose={() => setOpen(false)}>
                     <DialogTitle> Prueba Modal</DialogTitle>
                     <DialogContent>
                         <DialogContentText>
                             Texto de prueba
                         </DialogContentText>
                     </DialogContent>
-                </Dialog>
+                </Dialog> */}
+
+
+                <Model open={open} onClose={handleClose} name={tempdata[1]} nEquipment={tempdata[2]} programs={tempdata[3]}/>              
 
 
             </Grid>
+
+
 
       </Container>
 

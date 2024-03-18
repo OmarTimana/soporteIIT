@@ -44,9 +44,7 @@ export default function Navbar() {
                             </li>
                             <li>
 
-                                <Logo>
-                                    <Scroll to="footer" smooth={true} duration={400}>CONTACTANOS</Scroll>
-                                </Logo>
+                                <Scroll to="footer" smooth={true} duration={400}>CONTACTANOS</Scroll>
 
 
                             </li>
