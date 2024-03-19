@@ -1,18 +1,21 @@
 import { Button, Dialog, DialogContent, DialogContentText, DialogTitle, Box } from "@mui/material";
 
-export default function Model({open, onClose, name, nEquipment, programs}) {
+export default function Model({onClose, data}) {
+    if (data == null) return null
+
+    const {name, nEquipment, programs} = data
 
     return(
         <>
-            <Dialog open={open} onClose={onClose}>
+            <Dialog open={data != null} onClose={onClose}>
                 <DialogTitle>{name}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        Numero de equipos: {nEquipment}
-
+                        <span>Numero de equipos: {nEquipment}</span>
+                        <span>
+                            Programas: {programs.map(it => it.name).join(" | ")}
+                        </span>
                     </DialogContentText>
-                    
-
                     <Button onClick={onClose}>Cerrar</Button>
                 </DialogContent>
             </Dialog>
