@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Container, Dialog, DialogTitle, DialogContent, DialogContentText } from "@mui/material";
+import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Container } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 
 import classrooms from "../../helper/classrooms.json"

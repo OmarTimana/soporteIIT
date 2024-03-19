@@ -19,7 +19,7 @@ export default function Carousel() {
                 <h1 className="font-bold text-3xl text-center mb-2">Eventos Recientes</h1>
 
                 <Paper className="p-3" sx={{backgroundColor: "gray"}}>
-                    <CarouselF className="bg-grey-500">
+                    <CarouselF className="bg-grey-500" navButtonsAlwaysVisible={true} navButtonsProps={{style: {opacity:0.5}}}>
                         {
                             events.map( (item) => <Item key={item.id} item={item} /> )
                         }
