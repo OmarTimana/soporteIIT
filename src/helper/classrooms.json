@@ -39,7 +39,16 @@
         "id": "104",
         "name": "Aula 104",
         "img": "../src/assets/Aulas/Aula 104/104.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],        
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "ThermalTake",
@@ -65,7 +74,16 @@
         "id": "301",
         "name": "Aula 301",
         "img": "../src/assets/Aulas/Aula 301/301.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "Dell OptiPlex 9020",
@@ -91,7 +109,16 @@
         "id": "302",
         "name": "Aula 302",
         "img": "../src/assets/Aulas/Aula 302/302.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],        
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "Dell OptiPlex 9020",
@@ -117,7 +144,16 @@
         "id": "303",
         "name": "Aula 303",
         "img": "../src/assets/Aulas/Aula 303/303.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "Dell OptiPlex 9020",
@@ -143,7 +179,16 @@
         "id": "304",
         "name": "Aula 304",
         "img": "../src/assets/Aulas/Aula 304/304.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "Dell OptiPlex 9020",
@@ -169,7 +214,16 @@
         "id": "401",
         "name": "Aula 401",
         "img": "../src/assets/Aulas/Aula 401/401.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -195,7 +249,16 @@
         "id": "402",
         "name": "Aula 402",
         "img": "../src/assets/Aulas/Aula 402/402.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -221,7 +284,16 @@
         "id": "403",
         "name": "Aula 403",
         "img": "../src/assets/Aulas/Aula 403/403.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -247,7 +319,16 @@
         "id": "404",
         "name": "Aula 404",
         "img": "../src/assets/Aulas/Aula 404/404.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -273,7 +354,16 @@
         "id": "405",
         "name": "Aula 405",
         "img": "../src/assets/Aulas/Aula 405/405.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -299,7 +389,16 @@
         "id": "406",
         "name": "Aula 406",
         "img": "../src/assets/Aulas/Aula 406/406.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -325,7 +424,16 @@
         "id": "407",
         "name": "Aula 407",
         "img": "../src/assets/Aulas/Aula 407/407.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -351,7 +459,16 @@
         "id": "408",
         "name": "Aula 408",
         "img": "../src/assets/Aulas/Aula 408/408.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -377,7 +494,16 @@
         "id": "1002",
         "name": "Sala de VideoConferencias 2",
         "img": "../src/assets/Aulas/Videoconferencias2/videoconferencias2.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "Esta sala se encuentra en la oficina de IIT en el tercer piso del bloque tecnologico",
         "nEquipment": "36",
         "reference": "HP Mini G2",
@@ -404,7 +530,16 @@
         "id": "1003",
         "name": "Auditorio Bloque Tecnologico",
         "img": "../src/assets/Aulas/Auditorio/auditorio.jpg",
-        "images": ["../src/assets/Aulas/Aula 408/1.jpg","../src/assets/Aulas/Aula 408/2.jpg"],
+        "images": [
+            {
+                "id": "1",
+                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+            },
+            {
+                "id": "2",
+                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+            }
+        ],
         "description": "El auditorio se encuentra ubicado en el primer piso del Bloque tecnoligico",
         "nEquipment": "36",
         "reference": "HP Mini G2",

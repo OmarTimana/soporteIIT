@@ -7,8 +7,8 @@ export default function ItemModal({item}) {
 
         <Box className="flex flex-col items-center">
 
-            <div className="w-96 border-rounded">
-                <img loading="lazy" src={item.src} className="h-72 w-auto rounded-lg object-cover -pb-2"/>
+            <div className="border-rounded">
+                <img loading="lazy" src={item.src} className="w-screen h-96 rounded-lg object-cover"/>
             </div>
 
         </Box>    

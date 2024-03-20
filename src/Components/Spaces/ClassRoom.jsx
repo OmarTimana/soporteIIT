@@ -18,7 +18,7 @@ export default function ClassRoom() {
                 <Grid container spacing={4} justifyContent={'center'} alignItems={'center'}>
                     {classrooms.map((item) => (
                         <Grid key={item.id}>
-                            <Card key={item.id} sx={{ maxWidth: 360, maxHeight: 480 }}>
+                            <Card variant="outlined" className="shadow-lg" key={item.id} sx={{ maxWidth: 360, maxHeight: 480 }}>
                                 <CardActionArea key={item.id} onClick={() => { setModalData(item) }}>
                                     <CardMedia component='img' height={200} sx={{ maxHeight: 200 }} image={item.img} alt={item.name}>
                                     </CardMedia>
@@ -31,7 +31,7 @@ export default function ClassRoom() {
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>
-                                <CardActions>
+                                <CardActions className="m-2">
                                     <Button variant="outlined" onClick={() => { setModalData(item) }}>
                                         Conocer mas...
                                     </Button>

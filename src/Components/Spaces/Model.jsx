@@ -1,8 +1,10 @@
-import { Button, Dialog, DialogContent, DialogContentText, DialogTitle, Typography, Paper, Divider, Accordion, AccordionSummary, AccordionDetails, Box } from "@mui/material";
+import { Button, Dialog, DialogContent, DialogContentText, DialogTitle, Typography, Paper, Accordion, AccordionSummary, AccordionDetails, Box, Fab } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import Carousel from 'react-material-ui-carousel'
 import ItemModal from './ItemModal'
+
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function Model({onClose, data}) {
     if (data == null) return null
@@ -11,25 +13,23 @@ export default function Model({onClose, data}) {
 
     return(
         <>
-            <Dialog open={data != null} onClose={onClose}>
-                <DialogTitle>
+            <Dialog open={data != null} onClose={onClose} fullWidth={true} maxWidth='md'>
+                <DialogTitle className="text-center">
                     <Typography variant="h4">
                         {name}
                     </Typography>
                 </DialogTitle>
                 <DialogContent>
-                    <DialogContentText>
-                        <Paper>
-                            <Carousel>
+                    <DialogContentText >
+                        <Paper className="p-4 mt-1">
+                            <Carousel navButtonsAlwaysVisible={true} navButtonsProps={{style: {opacity:0.7}}}>
                                 {
                                     images.map( (item) => <ItemModal key={item.id} item={item} /> )
                                 }
                             </Carousel>
-
-
                         </Paper>
-                        <Box className="flex flex-1 flex-col gap-1 h-auto">
-                            <Divider sx={{border: 1}}/>
+                        <Box className="flex flex-1 flex-col gap-1 h-auto pt-1">
+                            {/* <Divider sx={{border: 1}}/> */}
                             <Paper className="flex items-center h-14 px-4">
                                 <p>
                                     <b>Numero de Equipos:</b> 
@@ -62,7 +62,7 @@ export default function Model({onClose, data}) {
                                 </AccordionSummary>
                                 <AccordionDetails>
                                     {equipment.map((item, index) => (
-                                        <ul key={item.index} className="list-disc px-8">
+                                        <ul key={index} className="list-disc px-8">
                                             <span>
                                                 <li>Ram:&ensp;{item.ram}</li>
                                             </span>
@@ -94,25 +94,8 @@ export default function Model({onClose, data}) {
                             </Accordion>
 
                         </Box>
-                        {/* <span><b>Numero de Equipos:</b> {nEquipment}</span>
-                        <br />
-                        <span><b>Referencia Equipos:</b> {reference}</span>
-                        <br />
-                        <span>
-                            <b>Componentes:</b> { equipment.map((item, index) => (
-                                
-                            ))
-                            }
-                        </span>
-                        <span>
-                            <b>Programas Instalados:</b> {programs.map(item => (
-                                <ul key={item.name}>
-                                    <li>{item.name}</li>
-                                </ul>
-                            ))}
-                        </span> */}
                     </DialogContentText>
-                    <Button onClick={onClose}>Cerrar</Button>
+                    <Button variant="outlined" color="error" className="h-12 w-full" sx={{marginTop:1, border:1.5}} onClick={onClose}>Cerrar</Button>
                 </DialogContent>
             </Dialog>
         </>
