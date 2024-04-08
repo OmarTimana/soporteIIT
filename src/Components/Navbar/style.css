@@ -1,0 +1,15 @@
+ul li a:not(.active):hover{
+    color: #E5E5E5;
+    padding-bottom: 4px;
+    border-bottom: solid #D4D4D4 3px;
+}
+
+.active{
+    transition: 0.1s ease-in;
+    padding-bottom: 4px;
+    border-bottom: solid white 3px;
+}
+
+ul li a {
+    transition: 0.1s ease-in-out;
+}

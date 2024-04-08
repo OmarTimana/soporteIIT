@@ -1,17 +1,17 @@
 [
 
     {
-        "id": "102",
-        "name": "Aula 102",
-        "img": "../src/assets/Aulas/Aula 102/102.jpg",
+        "id": "103",
+        "name": "Aula 103",
+        "img": "../src/assets/Aulas/Aula 103/102.jpeg",
         "images": [
             {
                 "id": "1",
-                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+                "src": "../src/assets/Aulas/Aula 103/1.jpg"
             },
             {
                 "id": "2",
-                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+                "src": "../src/assets/Aulas/Aula 103/2.jpg"
             }
         ],
         "description": "Esta aula se encuentra habilitada para los estudiantes",
@@ -31,6 +31,10 @@
 
             {
                 "name": "Cabri+ y Cabri 3D"
+            },
+
+            {
+                "name": "StatGraphics 19"
             }
         ]
     },
@@ -38,24 +42,35 @@
     {
         "id": "104",
         "name": "Aula 104",
-        "img": "../src/assets/Aulas/Aula 104/104.jpg",
+        "img": "../src/assets/Aulas/Aula 104/104.webp",
         "images": [
             {
                 "id": "1",
-                "src": "../src/assets/Aulas/Aula 102/1.jpg"
+                "src": "../src/assets/Aulas/Aula 104/1.webp"
             },
             {
                 "id": "2",
-                "src": "../src/assets/Aulas/Aula 102/2.jpg"
+                "src": "../src/assets/Aulas/Aula 104/2.webp"
+            },
+            {
+                "id": "3",
+                "src": "../src/assets/Aulas/Aula 104/3.webp"
+            },
+            {
+                "id": "4",
+                "src": "../src/assets/Aulas/Aula 104/4.webp"
             }
         ],        
-        "description": "Esta aula se encuentra habilitada para los estudiantes",
+        "description": "Esta aula se encuentra habilitada solo para clases",
         "nEquipment": "36",
         "reference": "ThermalTake",
         "equipment": [
             {
-                "ram": " 16GB",
-                "proccesor": "Intel i5",
+                "ram": "Kingston Fury 16GB",
+                "proccesor": "Ryzen 7 5700G",
+                "graphic":"Asus 4060 Ti",
+                "motherboard":"Asus b550 wifi II",
+                "chassis":"ThermalTake 200",
                 "screen": ""
             }
         ],
@@ -505,13 +520,13 @@
             }
         ],
         "description": "Esta sala se encuentra en la oficina de IIT en el tercer piso del bloque tecnologico",
-        "nEquipment": "36",
-        "reference": "HP Mini G2",
+        "nEquipment": "1",
+        "reference": "Lenovo ThinkPad",
         "equipment": [
             {
                 "ram": " 16GB",
                 "proccesor": "Intel i5",
-                "screen": ""
+                "screen": "Samsung 70 pulgadas"
             }
         ],
         "programs": [
@@ -541,8 +556,8 @@
             }
         ],
         "description": "El auditorio se encuentra ubicado en el primer piso del Bloque tecnoligico",
-        "nEquipment": "36",
-        "reference": "HP Mini G2",
+        "nEquipment": "1",
+        "reference": "HP Victus 15L",
         "equipment": [
             {
                 "ram": " 16GB",

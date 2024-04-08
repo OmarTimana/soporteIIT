@@ -3,8 +3,9 @@ import { List, Fab } from '@mui/material'
 
 import CloseIcon from '@mui/icons-material/Close';
 
-
 import { Box } from '@mui/system'
+
+import "./style.css";
 
 export default function NavbarListDrawer( { Logo, Link, Scroll, setOpen } ) {
 

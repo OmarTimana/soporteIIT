@@ -12,6 +12,8 @@ import { NavLink as Link, Link as Logo } from "react-router-dom"
 
 import {Link as Scroll} from "react-scroll"
 
+import "./style.css";
+
 export default function Navbar() {
 
     const [open, setOpen] = useState(false)
@@ -20,7 +22,7 @@ export default function Navbar() {
 
         <>
 
-            <AppBar position="sticky" className="">
+            <AppBar position="sticky">
 
                 <Toolbar className="flex flex-1 justify-between">
 

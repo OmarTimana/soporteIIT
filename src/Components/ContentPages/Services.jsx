@@ -10,7 +10,7 @@ export default function Services() {
     return(
         <>
 
-        <Box  className=' bg-gray-300 w-full flex flex-row items-center xl:h-screen'>
+        <Box  className=' bg-gray-300 w-full flex flex-row items-center'>
         
             <Container>
 

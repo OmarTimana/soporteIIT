@@ -12,7 +12,7 @@ export default function Carousel() {
 
     return(
 
-        <Box  id="top" name="top" className='bg-gray-300 w-full flex flex-row items-center pt-4'>
+        <Box  id="top" name="top" className='bg-gray-300 w-full flex flex-col items-center py-6'>
 
             <Box className="pb-3 w-full">
 
@@ -26,7 +26,13 @@ export default function Carousel() {
                     </CarouselF>
                 </Paper>
 
+
+            </Box>
+
+            <Box className="w-full" sx={{backgroundColor: "grey"}}>
+
                 <Services/>
+
 
             </Box>
 

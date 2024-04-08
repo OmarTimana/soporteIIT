@@ -4,8 +4,6 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Carousel from 'react-material-ui-carousel'
 import ItemModal from './ItemModal'
 
-import CloseIcon from '@mui/icons-material/Close';
-
 export default function Model({onClose, data}) {
     if (data == null) return null
 
@@ -68,6 +66,15 @@ export default function Model({onClose, data}) {
                                             </span>
                                             <span>
                                                 <li>Procesador:&ensp;{item.proccesor}</li>
+                                            </span>
+                                            <span>
+                                                <li>Tarjeta Grafica:&ensp;{item.graphic}</li>
+                                            </span>
+                                            <span>
+                                                <li>Placa Madre:&ensp;{item.motherboard}</li>
+                                            </span>
+                                            <span>
+                                                <li>Chasis:&ensp;{item.chassis}</li>
                                             </span>
                                         </ul>
                                     ))}

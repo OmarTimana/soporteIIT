@@ -1,7 +1,6 @@
 
 
-import { Box, Typography, Paper } from '@mui/material';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
+import { Box, Typography } from '@mui/material';
 
 import uLogo from '/Logo_Universidad.png'
 
@@ -13,49 +12,48 @@ export default function Footer() {
 
     return(
 
-        <Box name="footer" id="footer" className='bg-slate-900 text-white p-5'>
+        <Box name="footer" id="footer" className='bg-slate-900 text-neutral-300 font-semibold p-5'>
 
-            <Grid container spacing={4} className="flex mx-5 flex-row justify-center items-center">
+            <Box className="flex py-2 flex-row flex-wrap gap-12 justify-around">
 
-                <Grid lg={3} md={6} xs={12}>
-                    <Box className='flex justify-center'>
-                        <img src={uLogo} alt="" className='w-32'/>
-                    </Box>
-                </Grid>
+                <Box className='h-40 flex place-content-center'>
+                    <img src={uLogo} width={170}/>
+                </Box>
 
-                <Grid lg={3} xs={12} className='flex flex-col gap-2 items-center my-auto mx-auto text-center xl:max-2xl:text-right'>
-                    <Phone sx={{transform: 'scale(2.5)'}} color='inherit'/>
-                    <Typography>
+                <Box className='flex flex-col gap-4 items-center place-content-center text-center xl:max-2xl:text-right'>
+                    <Phone className='xl:-mt-6' sx={{transform: 'scale(2.5)'}} color='inherit'/>
+                    <Typography variant='h6' fontFamily={'bold'}>
                         Llamanos
                     </Typography>
                     <Box className="mt-1 text-center">
                         <p>Conmutador: 7244309 Ext: <b>1118</b></p>
                     </Box>
-                </Grid>
+                </Box>
 
-                <Grid lg={3} xs={12} className='flex flex-col gap-2 items-center my-auto mx-auto text-center xl:max-2xl:text-right'>
-                    <Mail sx={{transform: 'scale(2.5)'}} color='inherit'/>
-                    <Typography>
+                <Box className='flex flex-col gap-4 items-center justify-center place-content-center text-center xl:max-2xl:text-right'>
+                    <Mail className='xl:-mt-1' sx={{transform: 'scale(2.5)'}} color='inherit'/>
+                    <Typography variant='h6' fontFamily={'bold'}>
                         Contactanos
                     </Typography>
                     <Box className="mt-1 text-center">
-                        <p>usm@udenar.edu.co</p>
+                        <p>soporteiit@udenar.edu.co</p>
                         <p>infraestructura.tic@udenar.edu.co</p>
                     </Box>
-                </Grid>
+                </Box>
 
-                <Grid lg={3} xs={12} className='flex flex-col gap-2 items-center my-auto mx-auto text-center xl:max-2xl:text-right'>
-                    <Office sx={{transform: 'scale(2.5)'}} color='inherit'/>
-                    <Typography>
+                <Box className='flex flex-col gap-4 items-center place-content-center text-center xl:max-2xl:text-right'>
+                    <Office className='xl:mt-5' sx={{transform: 'scale(2.5)'}} color='inherit' />
+                    <Typography variant='h6' fontFamily={'bold'}>
                         Visitanos
                     </Typography>
                     <Box className="mt-1 text-center">
-                        <p>Horarios de Atención: 7 a.m a 8 p.m</p>
-                        <p>Bloque Tecnologico, Piso 3 Oficina X</p>
+                        <p>Horarios de Atención Lunes a Viernes: 7a.m a 8p.m</p>
+                        <p>Horarios de Atención Sabados: 8a.m a 12m - 2p.m a 6p.m</p>
+                        <p>Bloque Tecnologico, Piso 3</p>
                     </Box>
-                </Grid>
+                </Box>
 
-            </Grid>
+            </Box>
 
         </Box>
 
