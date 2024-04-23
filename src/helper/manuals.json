@@ -4,14 +4,14 @@
         "id": 1,
         "qr": "../src/assets/Manuales/autocad.jfif",
         "title": "Autodesk Autocad",
-        "url": "https://liveudenaredu-my.sharepoint.com/:f:/g/personal/usm_udenar_edu_co/EiKNKZDzgTdKooScV4sjLEMBSO-3OABlcCBG-wUQHXNiJg?e=KZajgg"
+        "url": "../public/Installers/Autocad.rar"
     },
 
     {
         "id": 2,
         "qr": "../src/assets/Manuales/cabri.jfif",
         "title": "Cabri",
-        "url": "https://liveudenaredu-my.sharepoint.com/:f:/g/personal/usm_udenar_edu_co/EnV__U92y6lHowD-amxIFosB7kYyb3GQynrMX5Ap-0SV_Q?e=VHEOYF"
+        "url": "../public/Installers/Cabri II y 3D.rar"
     },
 
     {
@@ -25,7 +25,7 @@
         "id": 4,
         "qr": "../src/assets/Manuales/navisworks.png",
         "title": "Autodesk NavisWorks",
-        "url": "https://liveudenaredu-my.sharepoint.com/personal/usm_udenar_edu_co/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fusm%5Fudenar%5Fedu%5Fco%2FDocuments%2FProgramas%2FAutodesk%20app%2FNavisWorks&ga=1"
+        "url": "../public/Installers/Navisworks.rar"
     },
 
     {
@@ -39,7 +39,7 @@
         "id": 6,
         "qr": "../src/assets/Manuales/revit.jfif",
         "title": "Autodesk Revit",
-        "url": "https://liveudenaredu-my.sharepoint.com/:f:/g/personal/usm_udenar_edu_co/EkHzp9nSmapOmeMBttIiB5oB8RNqTvIN_bryKREp4ob11w?e=WiJRFV"
+        "url": "../public/Installers/Revit.rar"
     },
 
     {

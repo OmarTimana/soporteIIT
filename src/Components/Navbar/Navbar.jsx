@@ -1,5 +1,17 @@
 import { AppBar, Drawer, IconButton, Toolbar, Box } from "@mui/material"
 
+import { Dropdown } from '@mui/base/Dropdown';
+import { MenuButton } from '@mui/base/MenuButton';
+import { Menu } from '@mui/base/Menu';
+import { MenuItem } from '@mui/base/MenuItem';
+
+import DownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+import UpIcon from '@mui/icons-material/KeyboardArrowUp';
+
+// --------------------
+
+
 import { useState } from "react"
 
 import iitLogo from '/logo_SIIT.png'
@@ -18,11 +30,14 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
 
+    const [openS, setOpenS] = useState(false)
+
+
     return(
 
         <>
 
-            <AppBar position="sticky">
+            <AppBar position="static">
 
                 <Toolbar className="flex flex-1 justify-between">
 
@@ -39,10 +54,26 @@ export default function Navbar() {
                                 <Link to="/">INICIO</Link>
                             </li>
                             <li>
+                                <Dropdown>
+                                    <MenuButton onClick={()=> setOpenS(!openS)} className="flex pb-2">SERVICIOS {openS?<UpIcon/>:<DownIcon/>}</MenuButton>
+                                    <Menu className="bg-slate-400 rounded-lg p-3 font-bold text-center text-white">
+                                        <MenuItem className="mb-3">
+                                            <Link to="/manuals">MANUALES DE INSTALACION</Link>
+                                        </MenuItem>
+                                        <MenuItem className="mb-3">
+                                            <Link to="/s2">SERVICIO 2</Link>
+                                        </MenuItem>
+                                        <MenuItem className="mb-2">
+                                            <Link to="/s3">SERVICIO 3</Link>
+                                        </MenuItem>
+                                    </Menu>
+                                </Dropdown>
+                            </li>
+                            <li>
                                 <Link to="/about">SOBRE NOSOTROS</Link>
                             </li>
                             <li>
-                                <Link to="/spaces">NUESTROS ESPACIOS</Link>
+                                <Link to="/spaces">ESPACIOS FISICOS</Link>
                             </li>
                             <li>
 
