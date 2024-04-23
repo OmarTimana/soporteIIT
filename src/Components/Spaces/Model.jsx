@@ -36,6 +36,7 @@ export default function Model({onClose, data}) {
                                 <p>
                                     {nEquipment}
                                 </p>
+                                
                             </Paper>
 
                             <Paper className="flex items-center h-14 shadow-2xl px-4">
@@ -46,6 +47,7 @@ export default function Model({onClose, data}) {
                                 <p>
                                     {reference}
                                 </p>
+
                             </Paper>
 
                             <Accordion>
